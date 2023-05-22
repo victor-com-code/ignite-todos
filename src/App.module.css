@@ -51,3 +51,43 @@
 }
 
 
+/*-- WRAPPER --*/
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  
+  max-width: 46rem;
+  margin: 4rem auto;
+}
+
+.tasksInfo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.tasksInfo span:not(.taskCounter) {
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+}
+
+.tasksInfo .created {
+  color: var(--blue);
+}
+
+.tasksInfo .done {
+  color: var(--purple);
+}
+
+.tasksInfo span.taskCounter {
+  background: var(--gray-400);
+  color: var(--gray-200);
+  font-size: 0.75rem;
+
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.50rem;
+  border-radius: 10px;
+}

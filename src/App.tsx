@@ -20,8 +20,15 @@ export function App() {
 
       <div className={styles.wrapper}>
         <header className={styles.tasksInfo}>
-          <span>Tarefas criadas 5</span>
-          <span>Concluídas 0</span>
+          <span className={styles.created}>
+            Tarefas criadas {' '}
+            <span className={styles.taskCounter}>5</span>
+          </span>
+
+          <span className={styles.done}>
+            Concluídas {' '}
+            <span className={styles.taskCounter}>0</span>
+          </span>
         </header>
 
         <div className={styles.emptyItens}>
