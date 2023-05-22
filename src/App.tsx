@@ -10,11 +10,11 @@ export function App() {
     <div>
       <Header />
 
-      <form>
+      <form className={styles.taskForm}>
         <input type="text" placeholder="Adicione uma nova tarefa" />
         <button type="submit">
           Criar
-          <PlusCircle size={20} />
+          <PlusCircle size={18} />
         </button>
       </form>
 
