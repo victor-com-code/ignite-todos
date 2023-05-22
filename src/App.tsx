@@ -32,9 +32,11 @@ export function App() {
         </header>
 
         <div className={styles.emptyItens}>
-          <ClipboardText size={20} />
-          <p>Você ainda não tem tarefas cadastradas</p>
-          <p>Crie tarefas e organize seus itens a fazer</p>
+          <ClipboardText size={60} />
+          <span>
+            <strong>Você ainda não tem tarefas cadastradas</strong>
+            <p>Crie tarefas e organize seus itens a fazer</p>
+          </span>
         </div>
 
         <Task />

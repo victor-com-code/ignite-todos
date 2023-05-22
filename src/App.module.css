@@ -91,3 +91,19 @@
   margin-left: 0.50rem;
   border-radius: 10px;
 }
+
+.emptyItens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  line-height: 1.4;
+
+  padding: 4rem 1.5rem;
+  border-top: 1px solid var(--gray-400);
+}
+
+.emptyItens svg {
+  color: var(--gray-400);
+}
