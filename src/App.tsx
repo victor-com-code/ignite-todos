@@ -31,19 +31,19 @@ export function App() {
           </span>
         </header>
 
-        <div className={styles.emptyItens}>
+        {/* <div className={styles.emptyItens}>
           <ClipboardText size={60} />
           <span>
             <strong>Você ainda não tem tarefas cadastradas</strong>
             <p>Crie tarefas e organize seus itens a fazer</p>
           </span>
-        </div>
+        </div> */}
 
         <Task />
         <Task />
         <Task />
         <Task />
-        <Task />
+        <Task /> 
       </div>
     </div>
   );
